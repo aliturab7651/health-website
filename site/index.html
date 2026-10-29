@@ -3,34 +3,77 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Sehat Care Clinic</title>
+  <meta name="theme-color" content="#f7faf8">
+  <meta name="description" content="Sehat Care Clinic offers thoughtful family healthcare, children's care, lab tests, and online consultations.">
+  <title>Sehat Care Clinic | Care that feels closer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>Sehat Care Clinic</h1>
-    <p>Aap ki sehat, hamari zimmedari</p>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Sehat Care Clinic home">
+      <span class="brand-mark" aria-hidden="true">✳</span>
+      <span>sehat<span class="brand-light">care</span><small>FAMILY CLINIC</small></span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#services">Our care</a>
+      <a href="#about">About us</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="header-cta" href="#contact">Get in touch <span aria-hidden="true">↗</span></a>
   </header>
 
-  <section id="services">
-    <h2>Hamari Khidmaat</h2>
-    <ul>
-      <li>General Checkup</li>
-      <li>Bachon ka Ilaj</li>
-      <li>Lab Tests</li>
-      <li>Online Mashwara</li>
-    </ul>
-  </section>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> HERE FOR YOUR FAMILY, EVERY DAY</p>
+        <h1>Good health<br>starts with <em>good care.</em></h1>
+        <p class="hero-intro">Aap ki sehat, hamari zimmedari. Thoughtful, trusted healthcare for every stage of life — close to home and here when you need us.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#contact">Plan your visit <span aria-hidden="true">→</span></a>
+          <a class="text-link" href="#services">Explore our care <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-note"><span class="note-icon" aria-hidden="true">✚</span><span><strong>Care you can count on</strong><br>Serving our community with compassion</span></div>
+      </div>
+      <div class="hero-visual" role="img" aria-label="Doctor talking with a patient in a bright, welcoming clinic">
+        <div class="visual-wash"></div>
+        <div class="image-caption"><span class="caption-icon" aria-hidden="true">✳</span><span><strong>Care, made personal</strong><small>A little more comfort in every visit.</small></span></div>
+        <div class="floating-stamp"><span>YOUR HEALTH</span><strong>♥</strong><span>MATTERS</span></div>
+      </div>
+      <div class="hero-bottom"><span>01 <i></i> PERSONAL CARE</span><span>GENERAL · FAMILY · ONLINE</span></div>
+    </section>
 
-  <section id="contact">
-    <h2>Rabta Karein</h2>
-    <p>Waqt: Subah 9 se Shaam 5 (Peer se Hafta)</p>
-    <p>Email: info@example.com</p>
-  </section>
+    <section class="services section-wrap" id="services">
+      <div class="section-heading">
+        <div><p class="eyebrow">CARE FOR EVERY CHAPTER</p><h2>Here for the <em>whole family.</em></h2></div>
+        <p>From everyday checkups to a little extra reassurance, find the care you need — all in one welcoming place.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card"><span class="service-icon">✚</span><span class="service-number">01</span><h3>General checkups</h3><p>Preventive care and everyday health guidance to help you feel your best.</p><a href="#contact" aria-label="Ask about general checkups">↗</a></article>
+        <article class="service-card"><span class="service-icon peach">♡</span><span class="service-number">02</span><h3>Children’s care</h3><p>Gentle, attentive care for little ones as they grow, learn, and thrive.</p><a href="#contact" aria-label="Ask about children's care">↗</a></article>
+        <article class="service-card"><span class="service-icon lilac">⌁</span><span class="service-number">03</span><h3>Lab tests</h3><p>Convenient testing to support clear answers and informed next steps.</p><a href="#contact" aria-label="Ask about lab tests">↗</a></article>
+        <article class="service-card"><span class="service-icon gold">◉</span><span class="service-number">04</span><h3>Online consultation</h3><p>Speak with our team from home when getting to the clinic is difficult.</p><a href="#contact" aria-label="Ask about online consultation">↗</a></article>
+      </div>
+    </section>
 
-  <footer>
-    <p>Yeh sirf maloomat ke liye hai, doctor ke mashware ka badal nahi. Emergency mein foran qareebi hospital jayein.</p>
-    <p>Version 2</p>
-  </footer>
+    <section class="about" id="about">
+      <div class="about-mark" aria-hidden="true">✳</div>
+      <div><p class="eyebrow">A LITTLE ABOUT US</p><h2>Healthcare should feel <em>human.</em></h2></div>
+      <p>At Sehat Care Clinic, we believe feeling heard is part of feeling better. Our team is here to make every visit comfortable, clear, and centered around you.</p>
+    </section>
+
+    <section class="contact section-wrap" id="contact">
+      <div class="contact-copy"><p class="eyebrow">WE’RE HERE WHEN YOU NEED US</p><h2>Let’s take care<br>of <em>your health.</em></h2><p>Questions or ready to plan a visit? Reach out and our team will be happy to help.</p><a class="button button-light" href="mailto:info@example.com">Email our team <span aria-hidden="true">↗</span></a></div>
+      <div class="contact-details">
+        <div><span class="detail-label">VISIT HOURS</span><p>Monday – Saturday<br>9:00 am – 5:00 pm</p></div>
+        <div><span class="detail-label">GET IN TOUCH</span><p><a href="mailto:info@example.com">info@example.com</a></p></div>
+        <div><span class="detail-label">A NOTE ON URGENT CARE</span><p>For emergencies, please go to your nearest hospital or call local emergency services.</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer><a class="footer-brand" href="#home">✳ sehatcare</a><p>This website is for general information and does not replace advice from a qualified doctor.</p><span>© Sehat Care Clinic</span></footer>
 </body>
 </html>
